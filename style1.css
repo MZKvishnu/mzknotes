@@ -1,0 +1,36 @@
+body{
+    background-color: palegreen;
+}
+a{
+    color: rgb(243, 235, 13);
+}
+a:hover{
+    color: white;
+}
+div{
+    background-color: rgb(43, 125, 193);
+    color:whitesmoke;
+    width: 40%;
+    height: 15%;
+    text-align: center;
+    margin: 0% auto;
+}
+h1{
+    text-align: center;
+}
+div:hover{
+    background-color: brown;
+}
+@media all and (max-width:400px){
+    body{
+        background-color:chartreuse;
+    }
+    div{
+        height: 10%;
+        width: 90%;
+    }
+  h3{
+    color:rgb(205, 238, 19);;
+    font-size: 30px;
+}
+}

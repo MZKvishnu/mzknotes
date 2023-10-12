@@ -1,0 +1,92 @@
+body{
+    background-color: hsl(254, 45%, 15%);
+}
+h1{color:honeydew;
+    font-family: Verdana, Arial, sans-serif;
+}
+td{
+    color:azure;
+    text-align:center;
+    font-size: 24px;
+}
+table{
+    height: 150px;
+    width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+        border-spacing:10;
+        margin-top: 300px;
+            table-layout: fixed;
+            width: 68%;
+            margin: 0 auto;
+            padding: 10px;
+            margin-bottom: 50px;
+}
+div{
+    text-align: center;
+}
+a:visited {
+    color: rgb(253, 253, 247);
+  }
+  a:hover {
+    color: rgb(250, 246, 6);
+    background-color: rgb(29, 166, 134);
+  }
+  a{
+    text-decoration: none;
+  }
+  
+  h3{
+      color:aliceblue;
+      font-size: 24px;
+  }
+  #lab{
+    margin-left: auto;
+    margin-right: auto;
+    table-layout: fixed;
+      height: 100px;
+      width: 50%;
+      margin-top: 50px;
+    color: white;
+  }
+  #top{
+
+  background-color:rgb(92, 117, 111);
+  height: 50px;
+  font-size: 22px;
+  }
+  #game{
+      font-family: Arial, Helvetica, sans-serif;
+      forced-color-adjust: black;
+      color: crimson;
+    width: 150px;
+    height: 20px;
+    float:left;
+    margin: 5px;
+  }
+  b:hover{
+      color: darkgray;
+  }
+  #adv{
+    margin-top: 50px;
+  }
+  @media all and (max-width:400px){
+    body{
+        background-color:chartreuse;
+
+    }
+    table{
+        background-color:rgb(31, 15, 71);
+        width:80%;
+    height: 40%;
+    font-size:30px;
+    margin: 0 auto;
+    }
+    h1{color:rgb(70, 23, 12);
+      font-family: Verdana, Arial, sans-serif;
+  }
+  h3{
+    color:rgb(70, 23, 12);;
+    font-size: 24px;
+}
+}
